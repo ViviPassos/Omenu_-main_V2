@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tela de Login - Tutorial Coffee Tag</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style_.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="cont">
+    <div class="form sign-in">
+      <h2> Logar </h2>
+      <form id="loginForm">
+        <label for="loginEmail">
+          <span>Seu Email</span>
+          <input type="email" id="loginEmail" required><br>
+        </label>
+        <label for="loginSenha">
+          <span>Senha</span>
+          <input type="password" id="loginSenha" required><br>
+        </label>
+        <button class="submit login-btn" type="button">Logar</button>
+        <p class="forgot-pass">Esqueceu sua senha?</p>
+      </form>
+
+      <div class="social-media">
+        <ul>
+          <li><img src="img/facebook.png"></li>
+          <li><img src="img/instagram.png"></li>
+          <li><img src="img/linkedin.png"></li>
+          <li><img src="img/twitter.png"></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="sub-cont">
+      <div class="img">
+        <div class="img-text m-up">
+          <h2>Gostaria de Cadastrar?</h2>
+          <p>Cadastre-se para ter acesso a conteúdos exclusivos</p>
+        </div>
+        <div class="img-text m-in">
+          <h2>Já se Cadastrou?</h2>
+          <p>Se você já tem uma conta, faça o Login clicando no botão abaixo</p>
+        </div>
+        <div class="img-btn">
+          <span class="m-up">Cadastrar</span>
+          <span class="m-in">Logar</span>
+        </div>
+      </div>
+      <div class="form sign-up">
+        <h2>Cadastrar-se</h2>
+        <form id="cadastroForm">
+          <label>
+            <span>Seu nome</span>
+            <input type="text" id="cadastroNome" required><br>
+          </label>
+          <label>
+            <span>Seu Email</span>
+            <input type="email" id="cadastroEmail" required><br>
+          </label>
+          <label>
+            <span>Senha</span>
+            <input type="password" id="cadastroSenha" required><br>
+          </label>
+          <button type="button" class="submit cadastro-btn">Cadastrar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="script_.js"></script>
+
+</body>
+
+</html>
